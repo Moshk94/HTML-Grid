@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(40, 44, 52);
+}
+
+
+#grid{
+    position: absolute;
+    background-color: rgb(36, 39, 41);
+    border: 2px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tile {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgb(255, 3, 3);  
+    box-sizing: border-box !important;
+    width: 75px;
+    height: 75px;
+}
+
+.tile:hover{
+    background-color:rgb(22, 20, 20);
+}
