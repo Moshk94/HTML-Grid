@@ -10,7 +10,7 @@ window.onload = function () {
       for (let x = 0; x < worldSizeProps.grid.rows; x++) {
           let div = document.createElement("div");
           div.classList.add("tile");
-          div.setAttribute("id",  x + "-" + y);
+          div.setAttribute("id", `${x}-${y}`);
           div.setAttribute("onclick", "someFunction(this)");
           grid.appendChild(div);
       };
